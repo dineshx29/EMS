@@ -1,0 +1,169 @@
+.employee-list-container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  h1 {
+    color: #2c3e50;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    .search-field {
+      min-width: 300px;
+    }
+  }
+}
+
+.employee-table-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+  min-height: 400px;
+  position: relative;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.employee-table {
+  width: 100%;
+  
+  th {
+    font-weight: 600;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+  }
+  
+  td, th {
+    padding: 16px 8px;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  tr:hover {
+    background-color: #f8f9fa;
+  }
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #6c757d;
+  color: white;
+  
+  &.active {
+    background-color: #28a745;
+  }
+}
+
+.no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+  color: #666;
+  
+  mat-icon {
+    font-size: 64px;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+  }
+  
+  h3 {
+    margin: 0 0 8px 0;
+    color: #2c3e50;
+  }
+  
+  p {
+    margin: 0 0 24px 0;
+    color: #666;
+  }
+}
+
+mat-paginator {
+  border-top: 1px solid #e9ecef;
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .employee-list-container {
+    padding: 16px;
+  }
+  
+  .page-header {
+    flex-direction: column;
+    align-items: stretch;
+    
+    .header-actions {
+      justify-content: space-between;
+      
+      .search-field {
+        min-width: 200px;
+        flex: 1;
+      }
+    }
+  }
+  
+  .employee-table {
+    font-size: 14px;
+    
+    td, th {
+      padding: 8px 4px;
+    }
+  }
+  
+  // Hide some columns on mobile
+  .mat-column-employee_id,
+  .mat-column-department {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header h1 {
+    font-size: 24px;
+  }
+  
+  .header-actions {
+    flex-direction: column;
+    align-items: stretch;
+    
+    .search-field {
+      min-width: auto;
+    }
+  }
+  
+  // Hide more columns on small mobile
+  .mat-column-position {
+    display: none;
+  }
+}

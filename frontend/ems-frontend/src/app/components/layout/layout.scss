@@ -1,0 +1,146 @@
+.layout-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-toolbar {
+  background: white;
+  color: #2c3e50;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
+
+.menu-button {
+  margin-right: 16px;
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.user-menu {
+  .user-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+    
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+    
+    mat-icon:first-child {
+      font-size: 24px;
+      width: 24px;
+      height: 24px;
+    }
+    
+    span {
+      font-weight: 500;
+    }
+    
+    mat-icon:last-child {
+      font-size: 18px;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+.sidenav-container {
+  flex: 1;
+}
+
+.app-sidenav {
+  width: 260px;
+  background: white;
+  border-right: 1px solid #e9ecef;
+  
+  .nav-header {
+    padding: 20px 24px 16px;
+    border-bottom: 1px solid #e9ecef;
+    
+    h3 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #2c3e50;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.nav-item {
+  margin: 4px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: rgba(102, 126, 234, 0.08);
+  }
+  
+  &.active-link {
+    background-color: rgba(102, 126, 234, 0.12);
+    color: #667eea;
+    
+    mat-icon {
+      color: #667eea;
+    }
+  }
+  
+  mat-icon {
+    color: #666;
+    margin-right: 16px;
+  }
+  
+  span {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.main-content {
+  background-color: #fafafa;
+  min-height: calc(100vh - 64px);
+}
+
+@media (max-width: 768px) {
+  .app-sidenav {
+    width: 240px;
+  }
+  
+  .app-title {
+    font-size: 18px;
+  }
+  
+  .user-button span {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-sidenav {
+    width: 100%;
+  }
+  
+  .menu-button {
+    margin-right: 8px;
+  }
+  
+  .app-title {
+    font-size: 16px;
+  }
+}

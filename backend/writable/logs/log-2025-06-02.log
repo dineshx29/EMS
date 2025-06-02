@@ -1,0 +1,1000 @@
+CRITICAL - 2025-06-02 15:29:24 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:29:24 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:40:51 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:40:51 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:41:03 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:41:03 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:41:42 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:41:42 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:41:47 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:41:47 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:41:56 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:08 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:08 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:09 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:09 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:38 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:38 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:39 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:39 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:39 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:40 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:40 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:40 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:41 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:41 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:41 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:41 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:41 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:41 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:41 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:41 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:41 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:42:41 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:42:51 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:44:27 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:44:27 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:44:34 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:44:34 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:48:16 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:48:16 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:48:17 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:48:17 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:48:18 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:48:18 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:21 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:21 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:24 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:24 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:25 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:25 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:26 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:26 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:30 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:30 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:53 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:53 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:55 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:55 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:55 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:55 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:57 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:57 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:50:57 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:50:57 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:51:13 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:51:13 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:51:14 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:51:14 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/Helpers/number_helper.php:137
+Stack trace:
+#0 /workspaces/EMS/backend/system/Helpers/number_helper.php(56): format_number()
+#1 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(152): number_to_size()
+#2 /workspaces/EMS/backend/app/Views/errors/html/error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(258): include('...')
+#4 /workspaces/EMS/backend/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/Helpers/number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:52:04 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:52:04 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:52:17 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 FCPATH/index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:52:17 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/public/index.php(72): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:53:23 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:53:23 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-02 15:56:13 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-02 15:56:13 --> ErrorException: Uncaught Error: Class "Locale" not found in /workspaces/EMS/backend/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /workspaces/EMS/backend/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /workspaces/EMS/backend/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /workspaces/EMS/backend/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /workspaces/EMS/backend/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /workspaces/EMS/backend/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2025-06-02 16:01:31 --> ErrorException: SQLite3::exec(): no such column: last_login_at in /workspaces/EMS/backend/system/Database/SQLite3/Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /workspaces/EMS/backend/system/Database/SQLite3/Connection.php(145): SQLite3->exec()
+#2 /workspaces/EMS/backend/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+#3 /workspaces/EMS/backend/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /workspaces/EMS/backend/system/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+#5 /workspaces/EMS/backend/system/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#6 /workspaces/EMS/backend/system/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+#7 /workspaces/EMS/backend/system/Model.php(807): CodeIgniter\BaseModel->update()
+#8 /workspaces/EMS/backend/app/Models/UserModel.php(158): CodeIgniter\Model->update()
+#9 /workspaces/EMS/backend/app/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+#10 /workspaces/EMS/backend/system/CodeIgniter.php(941): App\Controllers\AuthController->login()
+#11 /workspaces/EMS/backend/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /workspaces/EMS/backend/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /workspaces/EMS/backend/public/index.php(84): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-06-02 16:01:31 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): no such column: last_login_at
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 5 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+ 6 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:01:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): no such column: last_login_at
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 151.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 7 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+ 8 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:01:31 --> [Caused by] ErrorException: SQLite3::exec(): no such column: last_login_at
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/SQLite3/Connection.php(145): SQLite3->exec()
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+ 8 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 9 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+10 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+11 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-02 16:01:39 --> ErrorException: SQLite3::exec(): no such column: last_login_at in /workspaces/EMS/backend/system/Database/SQLite3/Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /workspaces/EMS/backend/system/Database/SQLite3/Connection.php(145): SQLite3->exec()
+#2 /workspaces/EMS/backend/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+#3 /workspaces/EMS/backend/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /workspaces/EMS/backend/system/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+#5 /workspaces/EMS/backend/system/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#6 /workspaces/EMS/backend/system/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+#7 /workspaces/EMS/backend/system/Model.php(807): CodeIgniter\BaseModel->update()
+#8 /workspaces/EMS/backend/app/Models/UserModel.php(158): CodeIgniter\Model->update()
+#9 /workspaces/EMS/backend/app/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+#10 /workspaces/EMS/backend/system/CodeIgniter.php(941): App\Controllers\AuthController->login()
+#11 /workspaces/EMS/backend/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /workspaces/EMS/backend/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /workspaces/EMS/backend/public/index.php(84): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-06-02 16:01:39 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): no such column: last_login_at
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 5 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+ 6 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:01:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): no such column: last_login_at
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 151.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 7 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+ 8 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:01:39 --> [Caused by] ErrorException: SQLite3::exec(): no such column: last_login_at
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/SQLite3/Connection.php(145): SQLite3->exec()
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH/BaseModel.php(987): CodeIgniter\Model->doUpdate()
+ 8 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 9 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+10 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+11 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:02:15 --> CodeIgniter\Database\Exceptions\DataException: There is no data to {0}.
+in SYSTEMPATH/BaseModel.php on line 970.
+ 1 SYSTEMPATH/BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:02:22 --> CodeIgniter\Database\Exceptions\DataException: There is no data to {0}.
+in SYSTEMPATH/BaseModel.php on line 970.
+ 1 SYSTEMPATH/BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Models/UserModel.php(158): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/AuthController.php(40): App\Models\UserModel->authenticate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:03:53 --> ErrorException: Undefined array key "first_name"
+in APPPATH/Controllers/AuthController.php on line 82.
+ 1 APPPATH/Controllers/AuthController.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-02 16:13:36 --> ErrorException: SQLite3::query(): Unable to prepare statement: no such column: employees.manager_id in /workspaces/EMS/backend/system/Database/SQLite3/Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /workspaces/EMS/backend/system/Database/SQLite3/Connection.php(146): SQLite3->query()
+#2 /workspaces/EMS/backend/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+#3 /workspaces/EMS/backend/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /workspaces/EMS/backend/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#5 /workspaces/EMS/backend/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#6 /workspaces/EMS/backend/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#7 /workspaces/EMS/backend/app/Controllers/EmployeeController.php(63): CodeIgniter\BaseModel->findAll()
+#8 /workspaces/EMS/backend/system/CodeIgniter.php(941): App\Controllers\EmployeeController->index()
+#9 /workspaces/EMS/backend/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /workspaces/EMS/backend/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /workspaces/EMS/backend/public/index.php(84): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-06-02 16:13:36 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::query(): Unable to prepare statement: no such column: employees.manager_id
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/EmployeeController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\EmployeeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:13:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::query(): Unable to prepare statement: no such column: employees.manager_id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 151.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/EmployeeController.php(63): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\EmployeeController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-02 16:13:36 --> [Caused by] ErrorException: SQLite3::query(): Unable to prepare statement: no such column: employees.manager_id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 146.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/SQLite3/Connection.php(146): SQLite3->query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 8 APPPATH/Controllers/EmployeeController.php(63): CodeIgniter\BaseModel->findAll()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\EmployeeController->index()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(84): CodeIgniter\CodeIgniter->run()
